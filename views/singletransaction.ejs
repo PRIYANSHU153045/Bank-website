@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>about-page</title>
+    <!-- <link rel="stylesheet" type="text/css" href="/css/style.css"> -->
+
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- script of bootstrap -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+        integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Ubuntu&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome  -->
+    
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        font-family: "Monstserrat";
+        box-sizing: border-box;
+    }
+
+    h1 h2 h3 h4 h5 h6 {
+        font-family: 'Montserrat-bold';
+    }
+
+    h2 {
+        font-size: 3rem;
+        line-height: 1.5;
+    }
+
+    .form-group {
+        font-size: 1.2rem;
+        margin: 20px 0px;
+    }
+
+    input {
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    .main-container {
+        width: 80%;
+        height: 70%;
+        box-shadow: 1px 1px 21px 7px #00000024;
+        border-radius: 15px;
+    }
+
+    .divider {
+        width: 16rem;
+        height: 5px;
+        margin-bottom: 2rem;
+        background: #ff4c68;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 2rem;
+
+    }
+
+    .login-button {
+        margin: 5% 3% 5% 0;
+    }
+    .image-container{
+    margin: 20px 20px;
+    display: flex;
+    }
+    
+    .image-title{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5%;
+    box-shadow: 6px 10px 12px 3px #00000024;
+    
+    /* margin-left: auto;
+    margin-right: auto;*/
+   } 
+</style>
+
+<body>
+
+    <section id="aboutsection">
+        <div class="container main-container px-5 my-5">
+            <div class="row d-flex">
+                <div class="col-lg-6 d-flex justify-content-center px-5">
+                    <form action="/singletransaction" method="post">
+                        <h1>View Transaction</h1>
+                        <div class="divider"></div>
+                        
+                        <div class="form-group">
+                            <label for=""><i class="fas fa-envelope"></i></label>
+                            <input type="text" name="acch_name_conf" id="" placeholder="Enter Acc holder name" />
+                        </div>
+                        <div class="form-group">
+                            <label for=""><i class="fas fa-unlock"></i></label>
+                            <input type="password" name="acch_account_conf" id="" placeholder="Enter account no" />
+                        </div>
+                        
+                        <div class="btn-class d-flex">
+                            <button type="submit" class="btn btn-danger btn-lg login-button">Send</button>
+                            <button type="reset" class="btn btn-danger btn-lg login-button">Reset</button>
+                        </div>
+                        <h4>OR Login With</h4>
+                        <div class="social-links mb-5 p-3">
+
+                            <i class="footer-logo fab fa-twitter"></i>
+                            <i class="footer-logo fab fa-instagram"></i>
+                            <i class="footer-logo fab fa-facebook-messenger"></i>
+                            <i class="footer-logo fas fa-envelope"></i>
+                        </div>
+
+                    </form>
+                </div>
+                <div class="col-lg-6 d-flex justify-content-center px-5">
+                    <div class="image-container">
+                        <img src="images/transfer-image.jpg" class=" image-title" alt="" srcset="" />
+                    </div>
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+</body>
+
+</html>

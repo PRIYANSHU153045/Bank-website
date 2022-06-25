@@ -1,0 +1,118 @@
+body{
+    font-family:"Montserrat";
+    box-sizing: border-box;
+}
+#title{
+    background-color:#cad2d2;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* navigation bar */
+.logo-image{
+    width: 30%;
+}
+
+
+.navbar{
+    padding-bottom: 3%;
+    
+    
+}
+.navbar-nav{
+    padding: 0px 50px;
+}
+
+
+a.navbar-brand{
+    font-family: 'Ubuntu';
+   
+    font-size: 2.5rem;
+    padding: 10px 30px;
+}
+.nav-item{
+    padding: 0px ,40px;
+    margin: 20px 20px;
+}
+a.nav-link{
+    font-family: 'Ubuntu';
+    font-size: 1.7rem;
+    color: #767b80 !important;
+}
+
+
+/* first section  */
+
+.big-heading{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat-black';
+}
+.container-fluid{
+    padding: 3% 15% 0% 7%;
+}
+.left-title-container{
+    padding: 10% 10%;
+}
+.image-container{
+    margin: 20px 20px;
+    display: flex;
+    
+}
+.image-title{
+    display: block;
+    height: auto;
+    max-width: 100%;
+    border-radius: 5%;
+    box-shadow: 6px 10px 12px 3px #00000024;
+    
+    /* margin-left: auto;
+    margin-right: auto;*/
+} 
+
+/* customer section 1 */
+#customer-section-1{
+    background-color: white;
+    padding:3% 3%;
+}
+.login-button{
+    text-decoration: none;
+    color: #fff;
+    
+}
+.login-button :hover{
+    color: rgb(168, 49, 49)!important;
+}
+ /* customer section 2 */
+#customer-section-2{
+    background-color:#cad2d2;
+    padding: 3% 3%;
+}
+.customer-container{
+    padding: 10% 10%;
+}
+
+/* pricing section  */
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+.pricing-coloum{
+    padding: 3% 2%;
+}
+.card{
+    border: 3px solid black;
+    border-radius: 5%;
+}
+.card-border{
+    box-shadow: 6px 10px 12px 3px #00000024;
+}
+
+/* footer section   */
+#footersection{
+    background-color: black;
+    color: white;
+}
+.footer-link{
+    text-decoration: none;
+    color: #fff;
+}
+    
